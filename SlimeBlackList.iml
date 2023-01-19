@@ -19,7 +19,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Slimefun-v2022.12-release" level="project" />
     <orderEntry type="library" name="PaperCore1.16.5" level="project" />
+    <orderEntry type="library" name="Slimefun-v4.9-release-982866e" level="project" />
   </component>
 </module>

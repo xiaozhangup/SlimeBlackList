@@ -3,7 +3,6 @@ package me.xiaozhangup.slimeblacklist;
 import io.github.thebusybiscuit.slimefun4.api.events.ExplosiveToolBreakBlocksEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
-import org.bukkit.block.Block;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -19,7 +18,7 @@ public class SlimeBlackList extends JavaPlugin implements Listener {
     public void onEnable() {
         saveDefaultConfig();
         reloadConfig();
-        var config = getConfig();
+        org.bukkit.configuration.file.@org.jetbrains.annotations.NotNull FileConfiguration config = getConfig();
         try {
             config.getStringList("BlackList").forEach(s -> {
                 blackList.add(Material.valueOf(s));
