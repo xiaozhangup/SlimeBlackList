@@ -1,0 +1,6 @@
+main: me.xiaozhangup.slimeblacklist.SlimeBlackList
+name: SlimeBlackList
+version: 1.0
+api-version: 1.13
+depend:
+  - Slimefun
