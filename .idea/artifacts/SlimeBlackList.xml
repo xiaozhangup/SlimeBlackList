@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SlimeBlackList">
+    <output-path>$USER_HOME$/ServerDev/Others-Test/plugins</output-path>
+    <root id="archive" name="SlimeBlackList.jar">
+      <element id="module-output" name="SlimeBlackList" />
+    </root>
+  </artifact>
+</component>
